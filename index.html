@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A read on where AI sits in Alma's pipeline, and where it does not</title>
+<meta name="description" content="Hey Ilya, Matt from Eduba. Saw Alma's site and the FETC talk, and the pedagogy-first framing is unusual in AI edtech. I have a bet on where the pipeline pinches when you scale past 1,000 programs.">
+<meta name="robots" content="noindex,nofollow">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap">
+    <div class="brand-lockup">
+      <img src="logo.png" alt="Alma Learning">
+    </div>
+    <span class="booth-chip"><span class="booth-dot"></span>Booth SS2, eMerge Americas 2026</span>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <span class="eyebrow">Prepared for Ilya Breyman <span class="to">&middot; Alma Learning</span></span>
+    <h1>A read on where AI sits in Alma's pipeline, and where it does not.</h1>
+    <p class="hero-sub">Pedagogy first, AI second. Educators teach as avatars in any language. Service, not a tool. We read the site, the blog, and the FETC talk. Here is the thing you are already living with, named.</p>
+    <p class="signed">From Matt Creamer, Eduba</p>
+  </div>
+</section>
+
+<main class="wrap pitch">
+
+  <p>Ilya, Matt from Eduba. We read the site, the blog, and the FETC talk. The framing is familiar. Pedagogy first, AI second. Educators teach as avatars in any language. Service, not a tool.</p>
+
+  <p>We want to name the thing you are already living with. Every new program Alma takes on starts the same way. A client ships you syllabi, decks, manuals, and lecture recordings. Your instructional designers turn those into a course scaffold. Your production team builds the avatar lessons. A senior educator reviews. The course lands in Canvas or D2L. The client sees the result. The sequence works. The question is how much of it is re-invented per client.</p>
+
+  <h2>How we would think about Alma's stack specifically</h2>
+
+  <p>Most of what touches a course is not AI. It is structure. A syllabus is a structure. A learning objective is a structure. A quiz rubric is a structure.</p>
+
+  <div class="layer-grid">
+    <div class="layer-card code">
+      <span class="layer-tag">~60%</span>
+      <h3>Structure and content ops</h3>
+      <p>Syllabi, objectives, rubrics, LMS plumbing. Traditional code and content operations. Fast, cheap, reliable.</p>
+    </div>
+    <div class="layer-card rules">
+      <span class="layer-tag">~30%</span>
+      <h3>Rule-based logic</h3>
+      <p>Learning objective to quiz to assessment to completion. A rules engine, not a language model.</p>
+    </div>
+    <div class="layer-card ai">
+      <span class="layer-tag">~10%</span>
+      <h3>Where LLMs and avatars belong</h3>
+      <p>Socratic dialogue when a learner is stuck. Adaptive explanation past a rule. Language delivery.</p>
+    </div>
+  </div>
+
+  <p>When teams skip that distinction, the LLM gets asked to do work that Postgres or a well-written rubric would do faster, cheaper, and more reliably. When teams get the distinction right, the LLM is only used where it is the only tool that works, and the rest of the pipeline runs on code.</p>
+
+  <h2>A client that faced the same question</h2>
+
+  <div class="callout">
+    <p>One client we worked with is a good analogue. Feeld ran a scoped sprint with us. Their CTO wanted an honest read on where AI fit in their internal stack and where it did not.</p>
+    <p>What came out of the sprint was a context architecture. A folder structure that held the company's working knowledge in a form the models and the team could share. The framework is still in use. It did not replace their engineering team, and it did not replace their AI tooling. It told them which job belonged on which layer.</p>
+  </div>
+
+  <p>My colleague Jake, Eduba's founder, wrote the methodology up as a paper. <em>Interpretable Context Methodology: Folder Structure as Agent Architecture</em>, submitted to ACM TiiS. It reads like infrastructure for instructional design, which is what Alma already ships without naming it that way. The paper lives at <a href="https://github.com/RinDig/Interpretable-Context-Methodology-ICM-" target="_blank" rel="noopener">github.com/RinDig/Interpretable-Context-Methodology-ICM-</a>.</p>
+
+  <p>Jake and Matt also built an online community to 22,000 members in five weeks, so we know the difference between a production pipeline that scales and one that stalls.</p>
+
+  <section class="cta" id="talk">
+    <h2>Thirty minutes. Bring one course you are mid-production on.</h2>
+    <p>We walk the pipeline end to end and mark which pieces are AI-shaped and which are structure-shaped. No slides, no preamble. One specific offer, one specific artifact.</p>
+    <a class="cta-button" href="https://calendly.com/thecro-eduba/30min" target="_blank" rel="noopener">Book 30 minutes with Matt</a>
+    <p class="cta-meta">Matt Creamer, CRO at Eduba. <a href="https://calendly.com/thecro-eduba/30min" target="_blank" rel="noopener">calendly.com/thecro-eduba/30min</a></p>
+  </section>
+
+  <p>Eduba partners with NLP Logix for work that sits below the orchestration layer. If the conversation turns toward custom avatar infrastructure or data pipeline work, we make that introduction. NLP Logix has been in machine learning since 2011 and runs over 150 data scientists.</p>
+
+  <aside class="references">
+    <h2>Referenced here</h2>
+    <ul>
+      <li><span class="ref-label">ICM paper and repo.</span> <a href="https://github.com/RinDig/Interpretable-Context-Methodology-ICM-" target="_blank" rel="noopener">github.com/RinDig/Interpretable-Context-Methodology-ICM-</a></li>
+      <li><span class="ref-label">Book time with Matt.</span> <a href="https://calendly.com/thecro-eduba/30min" target="_blank" rel="noopener">calendly.com/thecro-eduba/30min</a></li>
+    </ul>
+  </aside>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-note">Alma Learning Inc. &middot; <a href="https://almalearning.ai/" target="_blank" rel="noopener">almalearning.ai</a></div>
+    <div class="footer-prepared">Prepared by Eduba, <a href="https://eduba.io" target="_blank" rel="noopener">eduba.io</a></div>
+  </div>
+</footer>
+
+</body>
+</html>
